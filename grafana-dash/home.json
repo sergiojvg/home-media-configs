@@ -67,7 +67,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "homeassistant_sensor_unit_c",
+          "expr": "homeassistant_temperature_c{entity='sensor.living_room_temperature'}",
           "format": "time_series",
           "interval": "",
           "legendFormat": "",
@@ -163,7 +163,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "homeassistant_sensor_unit_percent",
+          "expr": "homeassistant_humidity_percent",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
